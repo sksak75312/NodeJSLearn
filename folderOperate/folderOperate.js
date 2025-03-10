@@ -31,14 +31,14 @@ const fs = require('fs');
 /**
  * # callback 傳入兩個參數，
  */
-// fs.readdir('.../', (err, data) => {
-//   if (err) {
-//     console.log('讀取失敗');
-//     return;
-//   }
-//   console.log(data);
-//   console.log('讀取成功');
-// });
+fs.readdir('.../', (err, data) => {
+  if (err) {
+    console.log('讀取失敗');
+    return;
+  }
+  console.log(data);
+  console.log('讀取成功');
+});
 
 // const readDir = fs.readdirSync('../');
 
@@ -50,21 +50,14 @@ const fs = require('fs');
  * # 使用rmdir刪除資料夾
  * #遞歸刪除使用 recursive
  */
-// fs.rmdir('../test', (err) => {
-//   if (err) {
-//     console.log('資料夾刪除失敗');
-//     return;
-//   }
-//   console.log('資料夾刪除成功');
-// });
 
-// fs.rmdir('../a', { recursive: true }, (err) => {
-//   if (err) {
-//     console.log('資料夾刪除失敗');
-//     return;
-//   }
-//   console.log('資料夾刪除成功');
-// });
+fs.rmdir('../a', { recursive: true }, (err) => {
+  if (err) {
+    console.log('資料夾刪除失敗');
+    return;
+  }
+  console.log('資料夾刪除成功');
+});
 
-const rmdir = fs.rmdirSync('../foldertest');
+// const rmdir = fs.rmdirSync('../foldertest');
 
