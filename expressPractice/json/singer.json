@@ -1,0 +1,64 @@
+{
+  "singer": [
+    {
+      "singer_name": "周杰倫",
+      "other_name": "Jay Chou",
+      "singer_id": 1,
+      "id": 1
+    },
+    {
+      "singer_name": "林俊傑",
+      "other_name": "JJ Lin",
+      "singer_id": 2,
+      "id": 2
+    },
+    {
+      "singer_name": "蔡依林",
+      "other_name": "Jolin Tsai",
+      "singer_id": 3,
+      "id": 3
+    },
+    {
+      "singer_name": "羅志祥",
+      "other_name": "Show Lo",
+      "singer_id": 4,
+      "id": 4
+    },
+    {
+      "singer_name": "蕭敬騰",
+      "other_name": "Jam Hsiao",
+      "singer_id": 5,
+      "id": 5
+    },
+    {
+      "singer_name": "楊丞琳",
+      "other_name": "Rainie Yang",
+      "singer_id": 6,
+      "id": 6
+    },
+    {
+      "singer_name": "張惠妹",
+      "other_name": "A-Mei",
+      "singer_id": 7,
+      "id": 7
+    },
+    {
+      "singer_name": "盧廣仲",
+      "other_name": "Crowd Lu",
+      "singer_id": 8,
+      "id": 8
+    },
+    {
+      "singer_name": "田馥甄",
+      "other_name": "Hebe Tien",
+      "singer_id": 9,
+      "id": 9
+    },
+    {
+      "singer_name": "王力宏",
+      "other_name": "Leehom Wang",
+      "singer_id": 10,
+      "id": 10
+    }
+  ]
+}
